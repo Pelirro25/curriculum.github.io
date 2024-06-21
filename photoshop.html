@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" href="photoshop.css">
+</head>
+<body>
+    <div class="container">
+        <div class="large-photo">
+            <img id="mainPhoto" src="../curriculum/photoshop/FREEDOM.jpg">
+        </div>
+        <div class="thumbnails">
+            <img src="../curriculum/photoshop/FREEDOM.jpg" onclick="changePhoto(`../curriculum/photoshop/FREEDOM.jpg`)">
+            <img src="../curriculum/photoshop/NOBILITY.jpg" onclick="changePhoto('../curriculum/photoshop/NOBILITY.jpg')">
+            <img src="../curriculum/photoshop/UNION.jpg" onclick="changePhoto('../curriculum/photoshop/UNION.jpg')">
+            <img src="../curriculum/photoshop/sweetness.jpg" onclick="changePhoto('../curriculum/photoshop/sweetness.jpg')">
+            <img src="../curriculum/photoshop/rostro.png" onclick="changePhoto('../curriculum/photoshop/rostro.png')">
+        </div>
+    </div>
+    <script src="photoshop.js"></script>
+</body>
+</html>

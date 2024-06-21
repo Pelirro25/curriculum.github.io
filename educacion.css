@@ -1,0 +1,57 @@
+body{
+    background-image: url(naranja.jpg);
+    overflow: hidden;
+    height: 20px;
+    width: 40%; 
+}
+.icono{
+    padding-top: 50px;
+    margin-left: 700px;
+    width: 140px;
+    animation: mover;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform: rotate(35deg);
+}
+h1{
+    font-size: 200px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-left: 150px;
+    top: 500px;
+    position: absolute;
+}
+.container {
+    top: 50px;
+    position: relative;
+    left: 200px;
+    width: 1500px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+#animatedText {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cursor {
+    border-right: 2px solid black;
+    display: inline;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+    from { border-color: transparent; }
+    to { border-color: black; }
+}
+@keyframes mover{
+    to{
+        transform: translateY(530px);
+    }
+}

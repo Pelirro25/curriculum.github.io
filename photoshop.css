@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(../curriculum/photoshop/fondo.jpg);
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+.container {
+    text-align: center;
+}
+.large-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.thumbnails img {
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+    border-style: groove;
+}
+.thumbnails img:hover {
+    border-color: #333;
+}

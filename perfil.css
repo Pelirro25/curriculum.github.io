@@ -1,0 +1,41 @@
+body{
+    background-image: url(fucsia.jpg);
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+.icono{
+    padding-top: 50px;
+    margin-left: 300px;
+    width: 250px;
+    animation: mover;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+h1{
+    font-size: 200px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-left: 950px;
+    top: 50px;
+    position: absolute;
+}
+p{
+    font-size: 35px;
+    font-family: fantasy;
+    text-align: justify;
+    color:white;
+    position: absolute;
+    top: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+@keyframes mover{
+    to{
+        transform: translateX(700px);
+    }
+}

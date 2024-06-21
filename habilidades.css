@@ -1,0 +1,48 @@
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}
+.container {
+    position: relative;
+}
+.card {
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    position: absolute;
+}
+#card1 {
+    background-color: #D69064;
+    top: 0;
+    left: -800px;
+}
+#card2 {
+    background-color: #EBEBE0; 
+    top: 37.8px;
+    left: -400px;
+}
+#card3 {
+    background-color: #DAC6C4;
+    top: 75.6px;
+    left: 10px;
+}
+#card4 {
+    background-color: #849997;
+    top: 113.4px;
+    left: 400px; 
+}
+.card:hover {
+    transform: translateY(-40px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
