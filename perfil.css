@@ -39,3 +39,9 @@ p{
         transform: translateX(700px);
     }
 }
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
