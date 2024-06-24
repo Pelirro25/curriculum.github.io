@@ -39,9 +39,29 @@ p{
         transform: translateX(700px);
     }
 }
+.boton {
+    background-color: #6200ea; 
+    position: relative;
+    bottom: -500px;
+    left: 1600px;
+    color: #ffffff; 
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Efectos de transición */
+}
 
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
-  }
+.boton:hover {
+    background-color: #3700b3; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.boton:active {
+    background-color: #3700b3;
+    transform: translateY(0); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
