@@ -3,10 +3,9 @@ body{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center;
 }
 .icono{
     padding-top: 50px;
@@ -61,8 +60,8 @@ h1{
 }
 .boton {
     background-color: #6200ea; 
-    position: relative;
-    bottom: -500px;
+    position: absolute;
+    bottom: 50px;
     left: 1600px;
     color: #ffffff; 
     border: none;
@@ -71,7 +70,7 @@ h1{
     font-size: 18px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Efectos de transición */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .boton:hover {
