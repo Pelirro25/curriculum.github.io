@@ -1,8 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: black;
+    overflow: hidden;
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -64,8 +67,8 @@ button:hover {
 }
 .boton {
     background-color: #6200ea; 
-    position: relative;
-    bottom: -500px;
+    position: absolute;
+    bottom: 50px;
     left: 1600px;
     color: #ffffff; 
     border: none;
